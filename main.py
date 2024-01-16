@@ -50,6 +50,4 @@ def get_load():
     message = LoadCapabilityMessage(cpu_limit, memory_limit)
     return jsonify(message.__dict__)
 
-if __name__ == '__main__':
-    port = 8080
-    app.run(port=port, debug=True)
+
